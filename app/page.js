@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Hero from "./_components/Hero";
+import Card from "./_components/Card";
 
 export default function Home() {
   return (
   <div>
-  <h1>Wine</h1>
+    <Hero />
+    <Card />
   </div>
   );
 }
