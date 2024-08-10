@@ -14,7 +14,7 @@ import {
 
 function Header() {
   return (
-    <div className='flex items-center justify-between shadow-md'>
+    <div className='flex items-center justify-between shadow-md pr-10'>
       <div className='flex gap-4 items-center'>
         <Image src="/winelogo.jpg" alt='logo' width={150} height={150} />
         

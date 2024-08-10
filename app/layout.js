@@ -14,10 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={outfit.className}>
+        <div>
         <Header />
         {children}
+        </div>
+        <Footer />
       </body>
-      <Footer />
     </html>
   );
 }
